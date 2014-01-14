@@ -1,0 +1,14 @@
+Source: hiera-ldap
+Section: admin
+Priority: extra
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/hunner/hiera-ldap
+
+Package: hiera-ldap
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, hiera
+Description: ldap backend for hiera
+ This module allows hiera to look up entries in LDAP.

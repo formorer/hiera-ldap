@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# uncomment to enable verbose mode for debhelper
+#DH_VERBOSE = 1
+# uncomment to exclude VCS paths
+#DH_ALWAYS_EXCLUDE=CVS:.svn:.git
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+

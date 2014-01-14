@@ -1,0 +1,6 @@
+hiera-ldap (1) UNRELEASED; urgency=low
+
+  * Initial release. 
+
+ -- Alexander Wirt <formorer@debian.org>  Tue, 14 Jan 2014 08:21:31 +0100
+
